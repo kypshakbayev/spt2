@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    }
+    .myForm{
+    margin: 100px;
+    }
+    .row{
+    margin-top: 5px;
+    }
+    .General{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    }
+    .shapka{
+    background-color: rgba(23, 23, 133, 0.861);
+    display: flex;
+    padding: 15px;
+    }
+    .shapka p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10%;
+    }
+    .shapka input{
+     color: grey;
+     margin-left: 10%;
+     background-color: darkgray;
+     border-radius: 10px;
+     font-size: 14px;
+     padding: 8px;
+    }
+    .ekijarty{
+     margin-top: 15px;
+     width: 80%;
+     margin-left: 8%;
+     margin-right: 8%;
+     display: flex;
+     justify-content: space-between;
+    }
+    .spisok ul{
+        list-style: none;
+    }
+    .spisok ul li{
+        color: #1F75FE;
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+    .spisok a{
+        text-decoration: none;
+        color: #1F75FE;
+    }
+    
+    .avatar{
+    background-color: white;
+    border-radius: 7px;
+    width: 260px;
+    padding: 15px;
+    }
+    .avatar img{
+    width: 100%;
+    }
+    .avatar button{
+    margin-top: 15px;
+    width: 100%;
+    background-color: aliceblue;
+    color: #1F75FE;
+    font-size: 18px;
+    padding: 5px;
+    border: 1px solid aliceblue;
+    }
+    
+    .friends{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 7px;
+    width: 260px;
+    padding: 15px;
+    }
+    .friendsText{
+    display: flex;
+    color: #1F75FE;
+    }
+    .friendsText p{
+    margin-left: 10px;
+    font-size: 18px;
+    }
+    .friendsPhoto{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .suret{
+    display: flex;
+    
+    .suret1 p {
+    color:#1F75FE;
+    }
+    
+    }
+    .suret1{
+    width: 70px;
+    padding: 10px;
+    }
+    .suret1 img{
+    width:100%;
+    border-radius: 50%;
+    }
+    
+    .information{
+    background-color: white;
+    border-radius: 7px;
+    width: 800px;
+    padding: 15px;
+    }
+    .information1{
+    display: flex;
+    justify-content: space-between;
+    }
+    .information1 p{
+    color: #1F75FE;
+    font-size: 20px;
+    font-weight: bold;
+    }
+    .information1 span{
+    color: darkgray;
+    font-size: 16px;
+    }
+    .information2{
+    display: flex;
+    }
+    .start{
+    margin-top: 15px;
+    }
+    .start p{
+    color: darkgrey;
+    font-size: 16px;
+    margin-top: 5px;
+    }
+    .finish{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    }
+    .finish p{
+    color: #1F75FE;
+    font-size: 16px;
+    margin-top: 5px;
+    }
+    .information3{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    }
+    .information3 p{
+    color: #1F75FE;
+    font-size: 24px;
+    text-align: center;
+    }
+    .information3 span{
+    color: darkgrey;
+    font-size: 14px;
+    }
+    .myPhotos{
+    background-color: white;
+    border-radius: 7px;
+    width: 800px;
+    padding: 15px;
+    margin-top: 20px;
+    }
+    .myPhotos1{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    justify-content: space-around;
+    }
+    .myPhotos1 img{
+    width: 22%;
+    }
+    .post{
+    background-color: white;
+    border-radius: 7px;
+    width: 800px;
+    padding: 15px;
+    margin-top: 20px;
+    height: auto;
+    }
+    .post1{
+    display: flex;
+    }
+    .posttext{
+    margin-top: 15px;
+    }
+    .posttext p{
+    color: #1F75FE;
+    font-size: 18px;
+    font-weight: bold;
+    }
+    .posttext span{
+    color: darkgray;
+    font-size: 14px;
+    }
+    .posttext1{
+    margin-top: 15px;
+    color:#1F75FE;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .site {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    }
+    
+    .shapka {
+    background-color: navy;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    }
+    .shapka p {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 200px;
+    }
+    .shapka input{
+    color: grey;
+    margin-left: 120px;
+    background-color: darkgray;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 8px;
+    height: 8px;
+    color: grey;
+    
+    }
+    
+    .Part1 {
+    display: flex;
+    color: #1c56d4;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin-top: 5px;
+    }
+    .PartL ul {
+    list-style: none;
+    }
+    .PartL ul li {
+    margin-top: 10px;
+    text-align: start;
+    }
+    .Part2 ul {
+    list-style: none;
+    }
+    
+    
+    
+    .PartL {
+    width: 12%;
+    margin-right: 10px;
+    }
+    .Part3 {
+    width: 40%;
+    }
+    .Part4 {
+    display: flex;
+    color: #1c56d4;
+    background-color: white;
+    border: 2px solid aliceblue;
+    }
+    .Part4 p{
+    color:#1c56d4;
+    }
+    
+    
+    .search {
+    display: inline-flex;
+    padding: 10px;
+    }
+    
+    .search-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    order: -1;
+    }
+    
+    .search-friends {
+    width: 300px;
+    border: 0;
+    }
+    .Part5 {
+    display: flex;
+    color: #1c56d4;
+    
+    }
+    .PartR {
+    width: 20%;
+    margin-left: 10px;
+    }
+    .Part6 {
+    background-color: white;
+    border: 10px solid aliceblue;
+    }
+    .Part7 {
+    background-color: white;
+    border: 10px solid aliceblue;
+    }
+    
+    .PartL a{
+    text-decoration: none;
+    }
+    
